@@ -1,12 +1,12 @@
-# 🔗 Video Presentation
-> **Video (Unlisted YouTube/Vimeo):** https://YOUR-VIDEO-LINK-HERE
+#  Video Presentation
+> Video (Unlisted YouTube/Vimeo):* https://YOUR-VIDEO-LINK-HERE
 
 # IT-359 Group Project — Automated Recon Output Parsing & Alerting (Educational)
 
-## 📌 Project Purpose (The What)
+ Project Purpose (The What)
 This project demonstrates how basic networking tools (e.g., nmap, netcat, masscan) can be combined with simple scripts to **parse saved scan outputs**, normalize them into readable data, and **alert** when an **unexpected open port** appears. It is designed for **authorized, lab-only** use and focuses on **post-scan automation** and reporting.
 
-> ⚠️ **Legal/Ethical**: Only scan networks you own or have **explicit written authorization** for. The default workflow is **parsing-only** and **dry-run**.
+> **Legal/Ethical**: Only scan networks you own or have **explicit written authorization** for. The default workflow is **parsing-only** and **dry-run**.
 
 ---
 
@@ -16,7 +16,7 @@ This project demonstrates how basic networking tools (e.g., nmap, netcat, massca
 
 ---
 
-## 🧰 Setup (macOS)
+Setup 
 ```bash
 git clone https://github.com/ammitc7/IT-359-Group-Project.git
 cd IT-359-Group-Project
@@ -24,15 +24,15 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-▶️ Usage (Quick Demo)
+ Usage (Quick Demo)
 In Step 2 we will add the safe demo command that parses a sample nmap XML and writes a report (no live scanning).
 Activate your virtual environment:
 source .venv/bin/activate
 Run the orchestrator (coming in Step 2).
 View outputs in the output/ folder.
-🧪 Testing
+Testing
 pytest -q
-🧱 Repository Structure (Recommended)
+epository Structure 
 your-project-name/
 ├── .gitignore
 ├── README.md
@@ -40,9 +40,9 @@ your-project-name/
 ├── src/
 │   └── __init__.py
 ├── docs/
-│   └── Final_Writeup_Template.md  # export to PDF as Final_Writeup_LastName.pdf
+│   └── Final_Writeup_Template.md
 └── tests/
-🧭 Rubric Alignment Checklist
+Rubric Alignment Checklist
 GitHub Repository (40 pts)
  Program runs and achieves goals (we’ll complete in Step 2–3)
  Repo structure is clean; code commented (in progress)
@@ -53,5 +53,5 @@ Final Writeup (40 pts)
 Video (20 pts)
  10–15 min overview + demo
  Link at top of README (replace placeholder)
-🔒 Authorization
+Authorization
 See AUTHORIZATION.md for rules on safe, permitted use. Default behavior in our code will be dry-run and parsing-only.
