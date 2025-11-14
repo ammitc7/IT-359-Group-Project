@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+output/
+raw_outputs/
+logs/
+
+auth.txt
+.env
+.DS_Store
