@@ -6,13 +6,13 @@
  Project Purpose (The What)
 This project demonstrates how basic networking tools (e.g., nmap, netcat, masscan) can be combined with simple scripts to **parse saved scan outputs**, normalize them into readable data, and **alert** when an **unexpected open port** appears. It is designed for **authorized, lab-only** use and focuses on **post-scan automation** and reporting.
 
-> **Legal/Ethical**: Only scan networks you own or have **explicit written authorization** for. The default workflow is **parsing-only** and **dry-run**.
+
 
 ---
 
-## ⚙️ Dependencies
+ Dependencies
 - Python 3.10+
-- See `requirements.txt` for Python libs
+
 
 ---
 
