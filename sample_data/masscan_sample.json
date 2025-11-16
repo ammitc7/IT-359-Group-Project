@@ -1,0 +1,2 @@
+{"ip":"10.0.0.10","timestamp":"2025-01-01T00:00:00Z","ports":[{"port":443,"proto":"tcp","status":"open","service":"https"}]}
+{"ip":"10.0.0.5","timestamp":"2025-01-01T00:00:00Z","ports":[{"port":22,"proto":"tcp","status":"open","service":"ssh"},{"port":8080,"proto":"tcp","status":"open","service":"http-alt"}]}
