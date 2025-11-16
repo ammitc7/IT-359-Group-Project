@@ -1,0 +1,6 @@
+defaults:
+  expected_ports: [22, 80, 443]
+
+hosts:
+  "10.0.0.5":
+    expected_ports: [22]

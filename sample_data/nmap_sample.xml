@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<nmaprun>
+  <host>
+    <status state="up"/>
+    <address addr="10.0.0.5" addrtype="ipv4"/>
+    <hostnames>
+      <hostname name="vm1.local" type="user"/>
+    </hostnames>
+    <ports>
+      <port protocol="tcp" portid="22">
+        <state state="open"/>
+        <service name="ssh" product="OpenSSH" version="8.4"/>
+      </port>
+      <port protocol="tcp" portid="8080">
+        <state state="open"/>
+        <service name="http" product="Apache" version="2.4"/>
+      </port>
+    </ports>
+  </host>
+</nmaprun>
