@@ -1,10 +1,10 @@
 #  Video Presentation
 > Video (Unlisted YouTube/Vimeo):* https://YOUR-VIDEO-LINK-HERE
 
-# IT-359 Group Project — Automated Recon Output Parsing & Alerting (Educational)
+# IT-359 Group Project — Automated Recon Output Parsing & Alerting 
 
  Project Purpose (The What)
-This project demonstrates how basic networking tools (e.g., nmap, netcat, masscan) can be combined with simple scripts to **parse saved scan outputs**, normalize them into readable data, and **alert** when an **unexpected open port** appears. It is designed for **authorized, lab-only** use and focuses on **post-scan automation** and reporting.
+This project demonstrates how basic networking tools (e.g., nmap, netcat, masscan) can be combined with simple scripts to parse saved scan outputs, normalize them into readable data, and alert when an unexpected open port appears. 
 
 
 
