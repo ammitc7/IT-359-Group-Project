@@ -1,0 +1,38 @@
+- id: CVE-2021-44228
+  name: Log4Shell in Apache Log4j
+  severity: critical
+  affected:
+    ports: [80, 443, 8080]
+    services: ["http", "https"]
+    product_regex: "log4j|apache.*tomcat"
+    version_regex: "2\\.(0|1|2|3|4|5|6|7|8|9|10|11|12|13|14).*"
+  description: >
+    Remote code execution in Apache Log4j 2.x via JNDI lookup in log messages.
+  references:
+    - "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+
+- id: CVE-2019-6111
+  name: OpenSSH scp client directory traversal
+  severity: high
+  affected:
+    ports: [22]
+    services: ["ssh"]
+    product_regex: "OpenSSH"
+    version_regex: "7\\.(0|1|2|3|4).*"
+  description: >
+    Malicious SCP server could write files outside of the target directory.
+  references:
+    - "https://nvd.nist.gov/vuln/detail/CVE-2019-6111"
+
+- id: CUSTOM-001
+  name: Outdated nginx (example internal check)
+  severity: medium
+  affected:
+    ports: [80, 443]
+    services: ["http", "https"]
+    product_regex: "nginx"
+    version_regex: "1\\.1[0-7]\\..*"
+  description: >
+    Nginx version is older than 1.18.0, which may lack important security fixes.
+  references:
+    - "https://nginx.org/en/security_advisories.html"
