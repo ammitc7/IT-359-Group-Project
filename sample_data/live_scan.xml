@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///opt/homebrew/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Thu Dec  4 17:31:10 2025 as: nmap -sV -p 1-1024 -oX sample_data/live_scan.xml 127.0.0.1 -->
+<nmaprun scanner="nmap" args="nmap -sV -p 1-1024 -oX sample_data/live_scan.xml 127.0.0.1" start="1764891070" startstr="Thu Dec  4 17:31:10 2025" version="7.98" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1024" services="1-1024"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="127.0.0.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1764891070" endtime="1764891070"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="127.0.0.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="localhost" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="1023">
+<extrareasons reason="conn-refused" count="1023" proto="tcp" ports="1-52,54-1024"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+</ports>
+<times srtt="30" rttvar="11" to="100000"/>
+</host>
+<runstats><finished time="1764891070" timestr="Thu Dec  4 17:31:10 2025" summary="Nmap done at Thu Dec  4 17:31:10 2025; 1 IP address (1 host up) scanned in 0.18 seconds" elapsed="0.18" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
